@@ -5,13 +5,13 @@ using System.Web;
 
 namespace QuidditchSimulator2k17.Models
 {
-    public class player
+    public class Player
     {
-        int player_id { get; set; }
-        String name { get; set; }
-        int age { get; set; }
-        int number { get; set; }
-        String position { get; set; }
-        int team_id { get; set; }
+        public int player_id { get; set; }
+        public string name { get; set; }
+        public int age { get; set; }
+        public int number { get; set; }
+        public string position { get; set; }
+        public int team_id { get; set; }
     }
 }

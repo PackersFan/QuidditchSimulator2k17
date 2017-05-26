@@ -5,11 +5,11 @@ using System.Web;
 
 namespace QuidditchSimulator2k17.Models
 {
-    public class region
+    public class Region
     {
-        int region_id { get; set; }
-        String name { get; set; }
-        String location { get; set; }
+        public int region_id { get; set; }
+        public string name { get; set; }
+        public string location { get; set; }
 
     }
 }
