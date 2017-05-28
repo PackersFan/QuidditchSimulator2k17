@@ -14,7 +14,7 @@ namespace QuidditchSimulator2k17.Controllers
 
 
 
-            return View("Home");
+            return View();
         }
     }
 }

@@ -1,0 +1,29 @@
+﻿@model QuidditchSimulator2k17.Models.Team
+
+@{
+    Layout = null;
+    
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Register a New Quidditch Team</title>
+</head>
+<body>
+    <div> 
+        On this page, you can register a new Quidditch team. After registering the team, you will be tasked with drafting players that fit your team's need. <br />
+        Good luck building your allstar team! <br /><br />
+
+        <form action="../Team/submitNewTeam" method="post">
+            Team Name: @Html.TextBoxFor(m=>m.name)<br />
+            Team's School Affiliate: @Html.TextBoxFor(m=>m.school)<br />
+            Team's Region: @Html.TextBoxFor(m=>m.region_id)<br />
+            
+            <input type="submit" />
+        </form>
+    </div>
+</body>
+</html>
