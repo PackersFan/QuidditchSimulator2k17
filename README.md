@@ -5,6 +5,8 @@ This is a project to create a web text-based game that is a simulation of Quiddi
 TODO LIST:
 
     1. Create functionality to register a new team and insert into Database
+        Status (5/27/17): Rough ability to add team is complete. Currently, hard coded values are present for captain, region, and player         count just so the feature could be finished. Next step to fully flesh out this is to get players pulled back as well as regions 
+        pulled back - both of which won't be too hard to do - then it will be fully implemented (as baseline as it needs to be for now). 
     2. Create functionality to draft pre-created players into your team
     3. Create functionality to simulate a game vs another pre-created team 
 
