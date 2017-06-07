@@ -5,12 +5,12 @@ This is a project to create a web text-based game that is a simulation of Quiddi
 TODO LIST:
 
     1. Create functionality to register a new team and insert into Database
-        Status (5/27/17): Rough ability to add team is complete. Currently, hard coded values are present for captain, region, and player         count just so the feature could be finished. Next step to fully flesh out this is to get players pulled back as well as regions 
-        pulled back - both of which won't be too hard to do - then it will be fully implemented (as baseline as it needs to be for now).
-        Status (6/7/17): Team hub page is now created. Right now, it has buttons (that do not function) to bring you to the draft page, 
-        the roster page, and the simulation page. Also, the roster page is in progress as a simple table that will dump the players on 
-        the given team to it. Next steps are to identify a ranking system to allow for one player to be considered "better" then another 
-        for what the users would want to pick. Fun stuff!
+        **Status (5/27/17)**: Rough ability to add team is complete. Currently, hard coded values are present for captain, region, and
+        player count just so the feature could be finished. Next step to fully flesh out this is to get players pulled back as well as
+        regions pulled back - both of which won't be too hard to do - then it will be fully implemented (as baseline as it needs to be for         now).
+        **Status (6/7/17)**: Team hub page is now created. Right now, it has buttons (that do not function) to bring you to the draft
+        page, the roster page, and the simulation page. Also, the roster page is in progress as a simple table that will dump the players         on the given team to it. Next steps are to identify a ranking system to allow for one player to be considered "better" then 
+        another for what the users would want to pick. Fun stuff!
     2. Create functionality to draft pre-created players into your team
     3. Create functionality to simulate a game vs another pre-created team 
 
